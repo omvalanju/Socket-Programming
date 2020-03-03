@@ -30,5 +30,8 @@ def accept_connection():
         connection, address = soc.accept()
         print("Connected with ", address)
 
+def main():
+    start_server()
 
-start_server()
+if __name__ == "__main__":
+    main()
